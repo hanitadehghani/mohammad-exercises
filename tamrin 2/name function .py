@@ -1,5 +1,6 @@
-def print_name():
-    print("hanita")
+def print_name(name):
+
+    print(name)
 
 
-print_name()
+print_name("hanita")
