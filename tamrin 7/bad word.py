@@ -1,5 +1,6 @@
 def filter(sen):
-    lst = ["kir", "koon", "chos", "an", "gooz"]
+    lst = ["kir", "koon", "chos", "an", "gooz",
+           "kos", "jaghi"]
     word = sen.split(" ")
     message = ""
     for i in word:
@@ -11,4 +12,4 @@ def filter(sen):
     return message
 
 
-print(filter("marde kir kheli koon dad mesle chos"))
+print(filter("marde kiri koon dad be an agha mesle gooz dar chos"))
